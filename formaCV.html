@@ -1,0 +1,71 @@
+<html>
+    
+  <head>
+      
+    <title> Projekat - IT101 - Karijere - CV </title>    
+    <link href="css.css" rel="stylesheet" type="text/css">
+	<script src="script/js.js"></script>
+      
+  </head>
+    
+  <body style="background-image: url('pozadina.png'); background-repeat: no-repeat; background-size: 100% 100%;">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+      
+    <header>
+        
+      <div class="meni">
+        
+            <div class = "logo">
+                <a href="index.html"><img src="tkn.png"></a>       
+            </div>
+          
+         <ul class="linijaMenija">
+            <li class="active"><a href= "karijere.html"> BACK TO CAREERS </a></li>
+         </ul>              
+      </div>
+        
+    </header>    
+        
+        <div class= "naslovCV"> 
+           <span class="crta17"></span>
+            <h1> Send us your CV </h1>
+            <span class="crta18"></span>       
+        </div>
+        
+        <div class="unosCV">  
+    
+            <label for="imeCV"><b>First name:</b></label>
+            <input type="text" placeholder="Your first name here" name="ime" id="imeKorisnika" style="width: 36.5%">
+            <br><br>
+            <label for="prezimeCV"><b>Last name:</b></label>
+            <input type="text" placeholder="Your last name here" name="prezime" id="prezimeKorisnika" style="width: 37.5%">
+            <br><br>
+            <label for="posaoCV"><b>For which job you apply?</b></label>
+            <select name="posaoCV" style="width: 22%">
+                <option value="Dizajner">web designer</option>
+                <option value="Programer">developer</option>
+                <option value="SofIng">software engineer</option>
+            </select>
+            <br><br>
+            <label for="uploadCV"><b>Upload your CV file:</b></label>
+            <br>
+            <input type="file" class="inputfile" accept=".doc,.docx,.pdf" value="CV" id="unosFile">
+            <br><br><br>
+            <div>
+                <button onclick="klikCV()" style="width: 40%">S E N D &nbsp; C V</button>
+            </div>
+            
+            <img src="slike/CV.png">
+        
+         </div>
+        
+        <div class="footer">
+          <a href="https://www,linkedin.com" class="fa fa-linkedin"></a>     
+          <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+          <a href="https://www.youtube.com" class="fa fa-youtube"></a>
+          <a href="https://www.instagram.com" class="fa fa-instagram"></a> 
+        </div>
+    
+  </body>
+</html>

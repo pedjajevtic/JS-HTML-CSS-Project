@@ -1,0 +1,91 @@
+<html>
+    
+  <head>
+      
+    <title> Projekat - IT101 - Kontakt </title>    
+    <link href="css.css" rel="stylesheet" type="text/css">
+	<script src="script/js.js"></script>
+      
+  </head>
+    
+  <body style="background-image: url('pozadina.png'); background-repeat: no-repeat; background-size: 100% 100%;">
+      
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+      
+    <header>
+        
+      <div class="meni">
+        
+            <div class = "logo">
+                <a href="index.html"><img src="tkn.png"></a>           
+            </div>
+          
+         <ul class="linijaMenija">
+            <li><a href= "index.html"> HOME PAGE </a></li>
+            <li><a href="oKompaniji.html"> ABOUT COMPANY </a></li>
+            <li><a href="proizvodi.html"> PRODUCTS </a></li>
+            <li><a href="oNama.html"> ABOUT US </a></li>
+            <li><a href="karijere.html"> CAREERS </a></li>
+            <li class="active"><a href="kontakt.html"> CONTACT </a></li>
+            <li><a href="blog.html"> BLOG </a></li>
+          </ul>     
+        </div>
+        
+     </header>    
+        
+        <div class= "naslovKontakt"> 
+            <span class="crta9"></span>
+            <h1> Ask us... </h1>
+            <span class="crta10"></span>       
+        </div>
+              
+        <div class="unosPoruke">  
+    
+            <label for="ime"><b>First name:</b></label>
+            <input type="text" placeholder="Your first name here" name="ime" id="imeKorisnika" style="width: 18.5%">
+
+            <label for="prezime"><b>Last name:</b></label>
+            <input type="text" placeholder="Your last name here" name="prezime" id="prezimeKorisnika" style="width: 18.5%">
+
+            <label for="email"><b>e-mail:</b></label>
+            <input type="email" placeholder="Your e-mail here" name="email" id="emailKorisnika" style="width: 19.17%">
+
+            <label for="brtel"><b>Phone:</b></label>
+            <input type="text" placeholder="Your phone number here" name="brtel" id="telKorisnika" style="width: 19.17%">
+            <br><br>
+            <label for="naslov"><b>Message subject:</b></label>
+            <input type="text" placeholder="Your subject here" id="subject" name="naslov" style="width: 15.4%"> <br>
+
+            <label for="poruka"><b>Message text:</b></label>
+            <textarea placeholder="Enter your message here..." rows="5" name="poruka" id="porukaKorisnika" minlength="20" maxlength="500" style="width: 100%"></textarea>
+            <br><br>
+            <label for="tporuke"><b>Choose message type:</b></label>
+            <select name="tporuke" style="width: 87.45%">
+                <option value="Pitanje">question</option>
+                <option value="Zahtev">request</option>
+                <option value="Predlog">suggestion</option>
+                <option value="Saradnja">cooperation</option>
+            </select>
+            <br><br>
+            <div>
+                <button onclick="klikKontakt()" style="width: 50%">S E N D &nbsp; M E S S A G E</button>
+            </div>
+        </div>
+        
+        <div class = "lokacija">
+            <h2> We are located at: </h2>
+            <span class="crta16"></span>
+            <p>
+               <iframe src="https://maps.google.com/maps?q=univerzitet%20metropolitan&t=&z=15&ie=UTF8&iwloc=&output=embed" width="700" height="350" allowfullscreen></iframe> 
+            </p>
+        </div>
+      
+        <div class="footer">
+          <a href="https://www,linkedin.com" class="fa fa-linkedin"></a>     
+          <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+          <a href="https://www.youtube.com" class="fa fa-youtube"></a>
+          <a href="https://www.instagram.com" class="fa fa-instagram"></a> 
+        </div>
+    
+  </body>
+</html>

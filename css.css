@@ -1,0 +1,823 @@
+ *
+{
+    margin: 0;
+    padding: 0;
+}
+
+.header {   
+    height: 100%;
+    width: 100%;   
+}
+
+.linijaMenija {
+    float: right;
+    margin-top: 30px;    
+}
+
+.linijaMenija li {
+    display: inline-block;   
+}
+
+.linijaMenija li a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: monospace;
+    font-size: 16.5px;
+}
+
+.linijaMenija li.active a {
+    border: 2px  solid rgb(22, 222, 222);
+    background-color: #044141;
+    filter: grayscale(0%); 
+}
+
+.linijaMenija li a:hover {
+    border: 8px  solid rgb(4, 65, 65);
+    background-color: #16dede;
+    transition: 1.2s all;  
+}
+
+ .logo img {
+    width: 135px;
+    height: 135px;
+    position: absolute;  
+    left: -1%;
+    margin-top: -1.7%;
+}
+
+.body {
+    font-family: fantasy;
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+}
+
+.meni {
+    margin-bottom: 40px;
+    padding: 8px;
+    width: 98.97%;
+    height: 70px;
+    background-color: rgb(4, 65, 65, 0.8);
+    position:relative;  
+}
+
+.tekstOKompaniji {
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: monospace;                     
+}
+
+.tekstOKompaniji h1 {
+    margin-bottom: 50px;
+    margin-top: 25x;
+    font-family: monospace;
+}
+
+.tekstOKompaniji p {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    border: 7px solid rgb(4, 65, 65);
+    background-color: rgb(4, 65, 65, 0.35);
+}
+
+.crta1 {
+    display: block;
+    margin: auto;
+    width: 663px;
+    height: 6px;
+    background: rgb(22, 222, 222);
+    margin-top: 100px;   
+}
+
+.crta2 {
+    display: block;
+    margin: auto;
+    width: 663px;
+    height: 6px;
+    background: rgb(22, 222, 222);
+    margin-bottom: 40px;
+    margin-top: -44px;
+}
+
+.natpis img {
+    width: 820px;
+    height: 220px;
+    margin-top: 200;
+    margin-bottom: 100;
+    margin-left: 345;
+    margin-right: 40;
+}
+
+.naslovProizvodi {
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    margin-bottom: 150;
+    font-family: monospace;   
+}
+
+.crta3 {
+    display: block;
+    margin: auto;
+    width: 728px;
+    height: 6px;
+    background: rgb(22, 222, 222);
+    margin-top: 100px;   
+}
+
+.crta4 {
+    display: block;
+    margin: auto;
+    width: 728px;
+    height: 6px;
+    background: rgb(22, 222, 222);
+    margin-bottom: 40px;
+    margin-top: 4.3px;  
+}
+
+.linijaProizvoda {
+    margin-left: 440px; 
+}
+
+.linijaProizvoda li {
+    display: inline-block;    
+}
+
+#Development {
+    background-image: url(slike/webDevelopment.png);
+    height: 128px;
+    width: 128px;
+}
+
+#Development:hover {
+    background-image: url(slike/webDevelopment2.png);
+    transition: 0.5s;
+}
+
+#Design {
+    background-image: url(slike/webDesign.png);
+    height: 128px;
+    width: 128px;
+}
+
+#Design:hover {
+    background-image: url(slike/webDesign2.png);
+    transition: 0.5s;
+}
+
+#WebSite {
+    background-image: url(slike/webSiteCreation.png);
+    height: 128px;
+    width: 128px;
+}
+
+#WebSite:hover {
+    background-image: url(slike/webSiteCreation2.png);
+    transition: 0.5s;
+}
+
+#Mobile {
+    background-image: url(slike/mobileAplications.png);
+    height: 128px;
+    width: 128px;
+}
+
+#Mobile:hover {
+    background-image: url(slike/mobileAplications2.png);
+    transition: 0.5s;
+}
+
+#Security {
+    background-image: url(slike/webSecurity.png);
+    height: 128px;
+    width: 128px;
+}
+
+#Security:hover {
+    background-image: url(slike/webSecurity2.png);
+    transition: 0.5s;
+}
+
+.naslov img {
+    position: absolute;  
+    left: 410px;
+    margin-top: -5px;
+}
+
+.naslovZaposleni {
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    margin-bottom: 150;
+    font-family: monospace;    
+}
+
+.crta5 {
+    display: block;
+    margin: auto;
+    width: 630px;
+    height: 6px;
+    background: rgb(22, 222, 222);
+    margin-top: 100px;   
+}
+
+.crta6 {
+    display: block;
+    margin: auto;
+    width: 630px;
+    height: 6px;
+    background: rgb(22, 222, 222);
+    margin-bottom: -130px;
+    margin-top: 4.3px; 
+}
+
+.linijaZaposlenih {
+    margin-left: 475px; 
+}
+
+.linijaZaposlenih li {
+    display: inline-block;
+    
+}
+
+#Covek1 {
+    background-image: url(slike/biznismen1.png);
+    height: 250px;
+    width: 154px;
+    margin: 10px;
+    border: 1.3px  solid rgb(22, 222, 222);
+    background-color: rgba(4, 65, 65, 0.44);
+}
+
+#Covek1:hover {
+    background-image: url(slike/biznismen11.png);
+    transition: 0.5s;
+}
+
+#Zena {
+    background-image: url(slike/biznismen3.png);
+    height: 250px;
+    width: 167px;
+    margin: 10px;
+    border: 1.3px  solid rgb(22, 222, 222);
+    background-color: rgba(4, 65, 65, 0.44);
+}
+
+#Zena:hover {
+    background-image: url(slike/biznismen33.png);
+    transition: 0.5s;
+}
+
+#Zena2 {
+    background-image: url(slike/biznismen2.png);
+    height: 250px;
+    width: 194px;
+    margin: 10px;
+    border: 1.3px  solid rgb(22, 222, 222);
+    background-color: rgba(4, 65, 65, 0.44);
+}
+
+#Zena2:hover {
+    background-image: url(slike/biznismen22.png);
+    transition: 0.5s;
+}
+
+.linijaIspodImenaZaposlenog {
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 3.5px;
+    background: #16dede;
+    margin-bottom: 15px;
+    margin-top: -30px;
+}
+
+.imeZaposlenog {
+    color: aliceblue;
+    font-size: 26.5px;
+    text-align: center;
+    display: block;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.tekstZaPrikazivanje {
+    width: 1200px;
+    margin: auto;
+    margin-top: auto;
+    font-size: 19px;
+    color: aliceblue;
+    text-align: justify;
+    height: 0;
+    overflow: hidden;
+    font-family: monospace;
+    background-color: rgba(4, 65, 65, 0.55);
+}
+
+.tekstZaPrikazivanje:target {
+    height: auto;
+    overflow: visible;
+}
+
+.naslovKarijere {
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    margin-bottom: 150;
+    font-family: monospace;    
+}
+
+.crta7 {
+    display: block;
+    margin: auto;
+    width: 1019px;
+    height: 6px;
+    background: rgb(22, 222, 222);
+    margin-top: 70px;    
+}
+
+.crta8 {
+    display: block;
+    margin: auto;
+    width: 1019px;
+    height: 6px;
+    background: rgb(22, 222, 222);
+    margin-bottom: -130px;
+    margin-top: 4.3px;   
+}
+
+ .rukovanje {
+    width: 320px;
+    height: 174px;
+    position: absolute;
+    left: 600;
+    top: 380;
+}
+
+.rukovanje p {
+    color: aliceblue;
+    padding: 5px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+    background-color: rgba(4, 65, 65, 0.55);
+}
+
+.rukovanje p:hover {
+    border: 4px solid rgb(4, 65, 65);
+    font-weight: bold;
+    transition: 0.4s all; 
+}
+
+#rukovanjeKarijere {
+    background-image: url(slike/rukovanje2.png);
+    width: 320px;
+    height: 174px;
+}
+
+#rukovanjeKarijere:hover {
+    background-image: url(slike/rukovanje.png);
+    width: 320px;
+    height: 174px;
+    transition: 0.5s;
+}
+
+.listaPoslova {
+    margin-left: 230px; 
+    margin-top: 156px;
+}
+
+#Posao1 {
+    background-image: url(slike/posao.png);
+    height: 120px;
+    width: 120px;
+}
+
+#Posao1:hover {
+    background-image: url(slike/posao2.png);
+    transition: 0.5s;
+}
+#Posao2 {
+    background-image: url(slike/posao.png);
+    height: 120px;
+    width: 120px;
+}
+
+#Posao2:hover {
+    background-image: url(slike/posao2.png);
+    transition: 0.5s;
+}
+
+#Posao3 {
+    background-image: url(slike/posao.png);
+    height: 120px;
+    width: 120px;
+}
+
+#Posao3:hover {
+    background-image: url(slike/posao2.png);
+    transition: 0.5s;
+}
+
+.linijaIspodImenaPosla {
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 3.5px;
+    background: #16dede;
+    margin-bottom: 15px;
+    margin-top: -30px;
+}
+
+.imePosla {
+    color: aliceblue;
+    font-size: 26.5px;
+    text-align: center;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.tekstZaPrikazivanjeKarijere {
+    width: 500px;
+    margin: auto;
+    float: left;
+    margin-left: 978;
+    margin-top: -372;
+    font-size: 19px;
+    color: aliceblue;
+    text-align: justify;
+    height: 0;
+    overflow: hidden;
+    font-family: monospace;
+    background-color: rgba(4, 65, 65, 0.55);
+}
+
+.tekstZaPrikazivanjeKarijere:target {
+    height: auto;
+    overflow: visible;
+}
+
+.naslovCV {
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    margin-bottom: 160;
+    font-family: monospace;    
+}
+
+.crta17 {
+    display: block;
+    margin: auto;
+    width: 497px;
+    height: 6px;
+    background: rgb(22, 222, 222);
+    margin-top: 40px;  
+}
+
+.crta18 {
+    display: block;
+    margin: auto;
+    width: 497px;
+    height: 6px;
+    background: rgb(22, 222, 222);
+    margin-top: 4.3px;  
+    margin-bottom: -25px;
+}
+
+.unosCV {
+    width: 650px;
+    margin-left: 425px;
+    border: 7px solid rgb(22, 222, 222);
+    background: rgba(4, 65, 65, 0.5);
+    padding: 5px;  
+    color: yellow; 
+    font-family: monospace;  
+}
+
+.unosCV img {
+    width: 110px;
+    position: absolute;  
+    left: 62%;
+    margin-top: -12%;
+}
+
+.unosCV button {
+    margin:auto;
+    display:block;
+    color: rgb(4, 65, 65);
+    font-weight: bold;
+    border:2px solid rgb(4, 65, 65);
+}
+
+.naslovKontakt {
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    margin-bottom: 150;
+    font-family: monospace;    
+}
+
+.crta9 {
+    display: block;
+    margin: auto;
+    width: 305px;
+    height: 6px;
+    background: rgb(22, 222, 222);
+    margin-top: 40px;  
+}
+
+.crta10 {
+    display: block;
+    margin: auto;
+    width: 305px;
+    height: 6px;
+    background: rgb(22, 222, 222);
+    margin-bottom: -130px;
+    margin-top: 4.3px;  
+}
+
+.unosPoruke {
+    max-width: 1200px;
+    margin-left: 145px;
+    margin-top: 195px;
+    border: 7px solid rgb(22, 222, 222);
+    background: rgba(4, 65, 65, 0.5);
+    padding: 15px;  
+    color: yellow; 
+    font-family: monospace;  
+}
+
+.unosPoruke button {
+    margin:auto;
+    display:block;
+    color: rgb(4, 65, 65);
+    font-weight: bold;
+    border:2px solid rgb(4, 65, 65);
+}
+
+.lokacija h2 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 40;
+    font-family: monospace;  
+}
+
+.crta16 {
+    display: block;
+    margin: auto;
+    width: 305px;
+    height: 4.5px;
+    background: rgb(22, 222, 222);
+    margin-bottom: -30px; 
+}
+
+.lokacija p {
+    text-align: center;  
+    margin-top: 40;
+    margin-bottom: 65;
+} 
+
+
+.maps iframe {    
+    padding: 25px;
+    width: 100%;
+    height: 100%;
+}
+
+.naslovBlog {
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    margin-bottom: 160;
+    font-family: monospace;    
+}
+
+.naslovBlog h3 {
+    font-family: monospace;
+    font-size: 15;
+    font-style: italic;
+    color: aliceblue;
+    margin-left: -2;
+    margin-top: 190;
+    margin-bottom: -150;
+}
+
+.crta11 {
+    display: block;
+    margin: auto;
+    width: 330px;
+    height: 6px;
+    background: rgb(22, 222, 222);
+    margin-top: 40px;   
+}
+
+.crta12 {
+    display: block;
+    margin: auto;
+    width: 330px;
+    height: 6px;
+    background: rgb(22, 222, 222);
+    margin-bottom: -190px;
+    margin-top: 4.3px;  
+}
+
+.blogNaslov {
+    margin-bottom: 27px;
+    margin-left: 76px;
+    width: 1350;
+    color: aliceblue;
+    display: inline-block;
+    float: left;
+    text-align: justify;
+    font-family: monospace;
+    font-size: 30;
+    font-weight: 250;
+    background: rgba(6, 45, 45, 0.40);
+    border: 4px solid rgb(22, 222, 222);   
+}
+
+.blogNaslov:hover {
+    background-color: rgb(6, 45, 45, 0.85);
+    transition: 0.4s all;
+}
+
+.blogNaslov h2 {
+    font-family: monospace;
+    font-size: 35;
+    font-style: italic;
+    color: rgb(22, 222, 222);
+    margin-left: 345;
+}
+
+.blogNaslov img {
+    width: 310;
+    margin-right: 30;
+    border: 2px solid rgb(22, 222, 222);
+}
+
+.blogNaslov3 {
+    margin-bottom: 60px;
+    margin-left: 76px;
+    width: 1350;
+    color: aliceblue;
+    display: inline-block;
+    float: left;
+    text-align: justify;
+    font-family: monospace;
+    font-size: 30;
+    font-weight: 250;
+    background: rgba(6, 45, 45, 0.40);
+    border: 4px solid rgb(22, 222, 222);   
+}
+
+.blogNaslov3:hover {
+    background-color: rgb(6, 45, 45, 0.85);
+    transition: 0.4s all;
+}
+
+.blogNaslov3 h2 {
+    font-family: monospace;
+    font-size: 35;
+    font-style: italic;
+    color: rgb(22, 222, 222);
+    margin-left: 345;
+}
+
+.blogNaslov3 img {
+    width: 310;
+    margin-right: 30;
+    border: 2px solid rgb(22, 222, 222);
+}
+
+.naslovVest1 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: monospace;
+    margin-bottom: 60px;
+}
+
+.naslovVest1 h1 {
+    margin-bottom: 50px;
+    margin-top: 25x;
+    font-family: monospace;
+}
+
+.naslovVest1 p {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    border: 7px solid rgb(4, 65, 65);
+    background-color: rgb(4, 65, 65, 0.35);
+}
+
+.crta13 {
+    display: block;
+    margin: auto;
+    width: 710px;
+    height: 6px;
+    background: rgb(22, 222, 222);
+    margin-bottom: 40px;
+    margin-top: -44px;   
+}
+
+.naslovVest2 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: monospace;
+    margin-bottom: 60px;
+}
+
+.naslovVest2 h1 {
+    margin-bottom: 50px;
+    margin-top: 25x;
+    font-family: monospace;
+}
+
+.naslovVest2 p {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    border: 7px solid rgb(4, 65, 65);
+    background-color: rgb(4, 65, 65, 0.35);
+}
+
+.crta14 {
+    display: block;
+    margin: auto;
+    width: 740px;
+    height: 6px;
+    background: rgb(22, 222, 222);
+    margin-bottom: 40px;
+    margin-top: -44px;   
+}
+
+.naslovVest3 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: monospace;
+    margin-bottom: 60px;
+}
+
+.naslovVest3 h1 {
+    margin-bottom: 50px;
+    margin-top: 25x;
+    font-family: monospace;
+}
+
+.naslovVest3 p {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    border: 7px solid rgb(4, 65, 65);
+    background-color: rgb(4, 65, 65, 0.35);
+}
+
+.crta15 {
+    display: block;
+    margin: auto;
+    width: 1200px;
+    height: 6px;
+    background: rgb(22, 222, 222);
+    margin-bottom: 40px;
+    margin-top: -44px;   
+}
+
+.footer {
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(4, 65, 65, 0.8);
+    text-align: center;
+    font-size: 25;   
+}
+
+.fa {
+    width: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    height: 28px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(22, 222, 222);
+    border: 1.2px solid yellow;
+    padding-top: 7px;
+    padding-bottom: 3px;
+    border-radius: 40%;   
+}
+
+.fa:hover {
+    color: rgb(4, 65, 65);
+    border: none;
+    background: rgb(22, 222, 222);
+    transition: 0.3s all;
+}
